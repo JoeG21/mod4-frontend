@@ -96,17 +96,18 @@ div.sidebar ul {
 
 div.sidebar ul li {
   list-style: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid black;
   padding: 0 5px;
 }
 
 div.sidebar ul li:first-child {
-  border-top: 1px solid grey;
+  border-top: 1px solid black;
 }
 
 div.sidebar ul li:hover {
   /* background-color: yellow; */
-  background-image: linear-gradient(#E6E6E6, #F7F7F7);
+  background-image: linear-gradient( lightblue
+  , #F7F7F7);
   background-repeat: no-repeat;
 }
 
@@ -117,6 +118,7 @@ div.sidebar ul li:hover {
   flex-direction: column;
   height: calc(100vh - 10px);
   margin: 10px 10px 0 10px;
+  background-color: gray;
 }
 
 .container {
@@ -125,13 +127,15 @@ div.sidebar ul li:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: gray;
+
 }
 
 .master-detail-element {
   float:left;
   margin: 10px 0px;
   padding: 20px;
-  border: 2px dashed grey;
+  border: 2px dashed black;
 }
 
 .sidebar {
